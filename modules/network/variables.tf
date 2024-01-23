@@ -1,0 +1,7 @@
+# perhatikan variable yg kita buat belum kita beri value, karena akan kita inject di 
+# artinya value ini bisa kita sesuaikan sperti lokasi yg berbeda
+# di main.tf parent folder
+variable "resource_group_name" {}
+variable "address_space" {}
+variable "address_prefix" {}
+variable "location" {}
