@@ -1,0 +1,13 @@
+{
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for testing Docker builds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
